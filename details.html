@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Buy Now - Pharmacy</title>
+  <link rel="stylesheet" href="style/details.css">
+  <script src="script/details.js" defer></script>
+</head>
+<body>
+
+  <h1>Buy Now</h1>
+
+  <!-- Personal Details Section -->
+  <section class="personal-details">
+    <h2>Personal Details</h2>
+    <form id="personalForm">
+      <label for="fullName">Full Name:</label>
+      <input type="text" id="fullName" required><br>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" required><br>
+
+      <label for="phone">Phone Number:</label>
+      <input type="tel" id="phone" required><br>
+    </form>
+  </section>
+
+  <!-- Delivery Details Section -->
+  <section class="delivery-details">
+    <h2>Delivery Details</h2>
+    <form id="deliveryForm">
+      <label for="address">Delivery Address:</label>
+      <input type="text" id="address" required><br>
+
+      <label for="city">City:</label>
+      <input type="text" id="city" required><br>
+
+      <label for="postalCode">Postal Code:</label>
+      <input type="text" id="postalCode" required><br>
+    </form>
+  </section>
+
+  <!-- Card Details Section -->
+  <section class="card-details">
+    <h2>Card Details</h2>
+    <form id="cardForm">
+      <label for="cardNumber">Card Number:</label>
+      <input type="text" id="cardNumber" required><br>
+
+      <label for="expiryDate">Expiry Date:</label>
+      <input type="month" id="expiryDate" required><br>
+
+      <label for="cvv">CVV:</label>
+      <input type="text" id="cvv" required><br>
+    </form>
+  </section>
+
+  <!-- Cart Table Section -->
+  <section class="cart-section">
+    <h2> Cart summary</h2>
+    <table id="cartTable" style="border: 1px solid black;">
+
+      <thead>
+        <tr>
+          <th>Product Name</th>
+          <th>Unit Price</th>
+          <th>Quantity</th>
+          <th>Total Price</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Cart items will be added here dynamically -->
+      </tbody>
+    </table>
+  </section>
+  <button onclick="window.location.href='thank u.html';">pay</button>
+</body>
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-UA-comptible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/patient.css">
+    <title>Patient registration form</title>
+</head>
+<body>
+    <section class="container">
+        <header>Patient registration form</header>
+        <form action="#" class="form">
+            <div class="input-box">
+                <label>Full Name</label>
+                <input type="text" placeholder="Enter full name" required />
+            </div>
+
+            <div class="input-box">
+                <label>Email Address</label>
+                <input type="text" placeholder="Enter email address" requied />
+            </div>
+
+            <div class="column">
+              <div class="input-box">
+                <label>Phone Number</label>
+                <input type="text" placeholder="Enter phone number" required />    
+              </div>
+            </div>  
+
+            <div class="gender-box">
+              <h3>Gender</h3>
+              <div class="gender-option">
+                <div class="gender">
+                    <input type="radio" id="check-male" name="gender" checked />
+                    <lable for="check-male">Male</lable>
+                </div>
+                <div class="gender">
+                    <input type="radio" id="check-female" name="gender" />
+                    <lable for="check-female">Female</lable>
+                </div>
+                <div class="gender">
+                    <input type="radio" id="check-other" name="gender" />
+                    <lable for="check-other">Prefer not to say</lable>
+                </div>
+              </div>
+            </div>
+
+            <div class="input-box address">
+                <label>Address</label>
+                <input type="text" placeholder="Enter street address" required />
+                <input type="text" placeholder="Enter street address line 2" required />
+                <div class="column">
+                  <div class="select-box">
+                    <select>
+                      <option hidden>Country</option>
+                      <option>Sri Lanka</option>
+                      <option>England</option>
+                      <option>Australia</option>
+                      <option>America</option>
+                    </select>
+                  </div>
+                  <input type="text" placeholder="Enter your city" required />
+                </div>
+
+                <div class="column">
+                    <input type="text" placeholder="Enter the allagies you have" required />
+                    <input type="text" placeholder="Additional comments" required />  
+                </div>
+            </div>
+            <button>Submit</button>
+</body>
+</html>

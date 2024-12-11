@@ -1,0 +1,45 @@
+body{
+    background-color: rgb(203, 176, 228);
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background-color: aqua;
+    color: black;
+    padding:10px;
+    border-style: solid;
+    text-align: center;
+}
+h1{
+    text-align: center;
+    color: rgb(64, 38, 236);
+}
+.container{
+    display: flex;
+    background-color: rgb(207, 128, 9);
+    margin: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px 20px;
+    padding: 30px;
+    border-radius: 10px;
+}
+.box{
+    width: 300px;
+    height: 500px;
+    background-color: aliceblue;
+    border-radius: 20px;
+}
+.box img{
+    width: 280px;
+    height: 320px;
+    margin: 10px;
+}
+.title{
+    text-align: center;
+    background-color: rgb(177, 177, 241);
+    font-weight: bold;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    height: 30px;
+}
+

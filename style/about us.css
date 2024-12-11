@@ -1,0 +1,132 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #3333;
+    font-family:Arial, Helvetica, sans-serif;
+    align-items: center;
+    justify-content:center;
+    display: flex;
+  }
+  .container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 100px;
+  
+  }
+  nav h2{
+    text-align:left;
+    font-size: 60px;
+    color:#240959;
+    text-shadow: #000000;
+    text-decoration-line: overline;
+    text-indent: 5%;
+    text-decoration: overline;
+  }
+  nav ul li{
+    text-align:center;
+    font-size: 20px;
+    color: #0f0e0f;
+    text-shadow: #000000;
+    text-indent: 5%;
+    align-items: center;
+    width:10px;
+    height: auto;
+    
+  }
+  button{
+    width:200px;
+    padding:5px;
+    margin:20px 5px;
+    text-align: center;
+    border-radius: 30px;
+    color: rgb(22, 21, 21);
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    background-color: transparent;
+    font-style: italic;
+  
+  }
+  
+  .cover{
+    width:900px;
+    height: 400px;
+    margin-top: 50px;
+    display: flex;
+  }
+  .branch_01{
+    margin:20px;
+    width:325px;
+    height:650px;
+    box-shadow: -1px 0 10px #000000;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  .branch_01 h3{
+    color:#240959;
+    font-size: 25px;
+    text-decoration: underline;
+    
+  }
+  img{
+    width:300px;
+    height: 200px;
+    display: flex;
+  }
+  .branch_02{
+    margin:20px;
+    width:325px;
+    height:650px;
+    box-shadow: -1px 0 10px #000000;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  .branch_02 h3{
+    color:#240959;
+    font-size: 25px;
+    text-decoration: underline;
+    
+  }
+  img{
+    width:300px;
+    height: 200px;
+    display: flex;
+  }
+  .branch_03{
+    margin:20px;
+    width:325px;
+    height:650px;
+    box-shadow: -1px 0 10px #000000;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  .branch_03 h3{
+    color:#240959;
+    font-size: 25px;
+    text-decoration: underline;
+    
+  }
+  img{
+    width:300px;
+    height: 200px;
+    display: flex;
+  }
+  .branch_03 iframe{
+    width:"50%";
+    height:auto;
+  }
+  
+  
+  
+  
